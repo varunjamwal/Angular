@@ -1,0 +1,29 @@
+p{
+    margin-top: 20px;
+    font-size: 100px;
+    color: red;
+
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .text-sucess {
+    color: green;
+    font-size: 30px;
+    
+    }
+    
+    .text-danger {
+    
+        color: red;
+    }
+    
+    .text-special{
+    font-style: italic;
+    
+    }

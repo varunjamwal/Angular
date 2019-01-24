@@ -1,0 +1,15 @@
+<!--
+    <p>
+ {{text1}} test2 works!
+ <br>{{"Welcome" + name}}
+</p>
+<h2> Length of {{name.toUpperCase()}} is {{name.length}}</h2> 
+//-->
+<h2 class="text-sucess">{{greetUser()}}</h2>
+<h2 [class]  = "sucessClass">Class Binding</h2>
+<div [ngClass]="multiple"> Class Binding</div>
+<!-- <h1>{{ 2+2 }}</h1> -->
+<div>
+<input [id]="myID" type="text" value="enter text">
+<input [disabled]="isDisabled" id={{myID}} type="text" value="enter text">
+</div>
